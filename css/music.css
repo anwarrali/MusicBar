@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Goldman", serif;
+
+
+ }
+.musicbar{
+    background-color: #00000070;
+    width: 50%;
+    height: 75%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.16), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+    
+}
+canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border: 20px solid rgba(0, 0, 0, 0.436);
+    animation: rotate 25s linear infinite;
+}
+
+@keyframes rotate {
+0%{
+   transform: rotate(0deg);
+}    
+0%{
+    transform: rotate(360deg);
+ } 
+}
+
+
+.audio-player {
+    background: #ffffff00;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.audio-player button {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+   
+}
+
+.audio-player button:hover {
+    background: #0057b300;
+}
+
+.audio-player input[type="range"] {
+    width: 200px;
+   
+
+}
+.span{
+    display: flex;
+    flex-direction: row;
+   
+}
+audio{
+    display: none;
+}
+.sound{
+    display:flex;
+    flex-direction: column;
+ 
+}
+.goldman-regular {
+    font-family: "Goldman", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+button:hover{
+color:rgba(152, 255, 238, 0.553);
+}
+.name{
+ animation: colorchange  5s ease infinite ;
+}
+@keyframes colorchange {
+    0%{
+        color:white;
+    }
+    50%{
+        color:rgba(152, 255, 238, 0.553);  
+    }
+    100%{
+        color:white;
+    }
+}
