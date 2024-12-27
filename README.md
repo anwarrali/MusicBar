@@ -1,6 +1,6 @@
-# Scrollable Music Bar
+#  Music Bar
 
-A web-based scrollable music bar built with JavaScript for dynamic interactivity and animations.
+A web-based  music bar built with JavaScript for dynamic interactivity and animations.
 
 ## Features
 - 🎵 **Music Control**: Change music tracks dynamically using JavaScript.
