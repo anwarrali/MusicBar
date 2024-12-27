@@ -14,3 +14,4 @@ A web-based  music bar built with JavaScript for dynamic interactivity and anima
   - Managing music playback and track changes.
   - Creating and controlling background animations.
 
+![image](https://github.com/user-attachments/assets/ec37d98a-44fb-4c91-bff7-013c5a973298)
